@@ -1,5 +1,3 @@
-%_disable_source_fetch 0
-
 Name: packer
 Version: 1.1.3
 Release: 1%{?dist}
