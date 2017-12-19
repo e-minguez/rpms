@@ -1,6 +1,7 @@
 # eminguez's RPM
 
 This repository contains a series of rpms or tools I use.
+The generated packages are available here https://copr.fedorainfracloud.org/coprs/eminguez/eminguez-RPMs/
 
 ## Structure
 
