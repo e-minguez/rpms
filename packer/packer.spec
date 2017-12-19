@@ -6,8 +6,7 @@ Group: Development/Tools
 License: MPLv2.0
 URL: https://www.packer.io/
 
-# https://releases.hashicorp.com/packer/1.1.3/packer_1.1.3_linux_amd64.zip
-Source0: packer_%{version}_linux_amd64.zip
+Source0: https://releases.hashicorp.com/packer/%{version}/packer_%{version}_linux_amd64.zip
 
 %description
 Packer is a tool for creating machine and container images for
@@ -30,7 +29,7 @@ popd
 %{_bindir}/*
 
 %changelog
-* Tue Dec 19 2017 Eduardo Minguez <edu@redhat.com> - 1.1.3
+* Tue Dec 19 2017 Eduardo Minguez <edu@redhat.com> - 1.1.3-1
 - Update to 1.1.3
 
 * Thu May 05 2016 Josef Strzibny <strzibny@strzibny.name> - 0.10.0-1
