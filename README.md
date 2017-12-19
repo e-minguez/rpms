@@ -7,5 +7,5 @@ The generated packages are available here https://copr.fedorainfracloud.org/copr
 
 Location | Role | Status
 ------------ | ------------- | ------------
-[packer/](packer/) | Packer.io package | ![rpmbuild](https://copr.fedorainfracloud.org/coprs/eminguez/packer.io/package/Packer/status_image/last_build.png)
+[packer.io/](packer.io/) | Packer.io package | ![rpmbuild](https://copr.fedorainfracloud.org/coprs/eminguez/eminguez-RPMs/package/packer.io/status_image/last_build.png)
 [scripts/](scripts/) | Scripts | none
