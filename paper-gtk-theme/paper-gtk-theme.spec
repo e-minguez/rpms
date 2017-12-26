@@ -13,6 +13,7 @@
 # published by the Open Source Initiative.
 #
 %global lastcommit 770aba4
+%global lastcommitlong 770aba45a6441f9af4d02e04c0acc237533d341f
 
 Name:           paper-gtk-theme
 Version:        2.1.0
@@ -21,7 +22,7 @@ License:        GPL-3.0+
 Summary:        Paper Theme Suite
 Url:            https://snwh.org/paper
 Group:          System/GUI/Other
-Source0:    https://github.com/snwh/%{name}/archive/%{lastcommit}.tar.gz#/%{name}-%{lastcommit}.tar.gz
+Source0:        https://github.com/snwh/%{name}/archive/%{lastcommitlong}.tar.gz
 BuildRequires:  automake
 BuildArch:      noarch
 Requires:       gtk2-engines
