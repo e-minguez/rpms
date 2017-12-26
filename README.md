@@ -9,6 +9,7 @@ SPEC location | Role | Status | Package build location
 ------------ | ------------- | ------------ | ------------
 [packer.io/](packer.io/) | Packer.io package | [![Packer.io build status](https://copr.fedorainfracloud.org/coprs/eminguez/eminguez-RPMs/package/packer.io/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/eminguez/eminguez-RPMs/package/packer.io/) | [packer.io package](https://copr.fedorainfracloud.org/coprs/eminguez/eminguez-RPMs/package/packer.io/)
 [terraform/](terraform/) | Terraform package | [![Terraform build status](https://copr.fedorainfracloud.org/coprs/eminguez/eminguez-RPMs/package/terraform/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/eminguez/eminguez-RPMs/package/terraform/) | [terraform package](https://copr.fedorainfracloud.org/coprs/eminguez/eminguez-RPMs/package/terraform/)
+[paper-gtk-theme/](paper-gtk-theme/) | paper-gtk-theme package | [![paper-gtk-theme build status](https://copr.fedorainfracloud.org/coprs/eminguez/eminguez-RPMs/package/paper-gtk-theme/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/eminguez/eminguez-RPMs/package/paper-gtk-theme/) | [paper-gtk-theme package](https://copr.fedorainfracloud.org/coprs/eminguez/eminguez-RPMs/package/paper-gtk-theme/)
 [scripts/](scripts/) | Scripts | none
 
 ## Credits
