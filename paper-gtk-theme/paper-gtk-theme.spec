@@ -31,7 +31,7 @@ Requires:       gtk2-engines
 Paper is a modern desktop theme suite. Its design is mostly flat with a minimal use of shadows for depth.
 
 %prep
-%setup -qn %{name}-%{lastcommit}
+%setup -n %{name}-%{lastcommitlong}
 
 %build
 
