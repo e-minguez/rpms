@@ -2,8 +2,8 @@
 %global lastcommitlong 549b29327c05e00caa0c1c4d6d7dbf58d6f93da0
 
 Name:      gnomeshell-extension-manage
-Version:   0.1
-Release:   20180122git%{lastcommit}
+Version:   2.4
+Release:   20180822git%{lastcommit}
 Summary:   Script to manage gnome shell extensions
 Group:     Development/Tools
 License:   Unknown
@@ -27,6 +27,9 @@ install -m 755 ubuntugnome/gnomeshell-extension-manage %{buildroot}%{_bindir}
 %{_bindir}/*
 
 %changelog
+* Wed Aug 22 2018 Eduardo Minguez <edu@redhat.com> - 2.4
+- Bumped to proper script version
+
 * Mon Jan 22 2018 Eduardo Minguez <edu@redhat.com> - 0.1-20180122
 - Added "--version latest" support
 
