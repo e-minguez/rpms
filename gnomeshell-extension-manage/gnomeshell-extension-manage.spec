@@ -1,5 +1,5 @@
-%global lastcommit 549b29
-%global lastcommitlong 549b29327c05e00caa0c1c4d6d7dbf58d6f93da0
+%global lastcommit 337028
+%global lastcommitlong 337028595f0bc1a62cbcbba1dc1d162277dd7395
 
 Name:      gnomeshell-extension-manage
 Version:   2.4
