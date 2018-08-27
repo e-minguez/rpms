@@ -1,5 +1,5 @@
 Name: terraform
-Version: 0.11.1
+Version: 0.11.8
 Release: 1%{?dist}
 Summary: Terraform is a tool for building, changing, and combining infrastructure safely and efficiently.
 Group: Development/Tools
