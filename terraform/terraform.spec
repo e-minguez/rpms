@@ -23,5 +23,8 @@ unzip -o %{SOURCE0} -d %{buildroot}%{_bindir}
 %{_bindir}/*
 
 %changelog
+* Mon Aug 27 2018 Eduardo Minguez <edu@redhat.com> - 0.11.8-1
+- Bump to version 0.11.8
+
 * Tue Dec 19 2017 Eduardo Minguez <edu@redhat.com> - 0.11.1-1
 - First version
