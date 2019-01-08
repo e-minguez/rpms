@@ -1,5 +1,5 @@
 Name: packer.io
-Version: 1.3.2
+Version: 1.3.3
 Release: 1%{?dist}
 Summary: Create machine and container images for multiple platforms
 Group: Development/Tools
@@ -29,6 +29,9 @@ popd
 %{_bindir}/*
 
 %changelog
+* Mon Jan 08 2019 David Sastre <d.sastre.medina@gmail.com> - 1.3.3-1
+- Update to 1.3.3
+
 * Tue Nov 06 2018 Sergi Jimenez <tripledes@gmail.com> - 1.3.2-1
 - Update to 1.3.2
 
@@ -43,4 +46,3 @@ popd
 
 * Tue Oct 27 2015 Josef Stribny <jstribny@redhat.com> - 0.8.6-1
 - Initial package
-
