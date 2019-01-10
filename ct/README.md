@@ -1,4 +1,4 @@
-# Terraform
+# CT
 
 Basic RPM with the released binary
 
@@ -10,8 +10,8 @@ Basic RPM with the released binary
 sudo dnf copr enable eminguez/eminguez-RPMs
 ```
 
-* Install [terraform](https://copr.fedorainfracloud.org/coprs/eminguez/eminguez-RPMs/package/terraform/)
+* Install [ct](https://copr.fedorainfracloud.org/coprs/eminguez/eminguez-RPMs/package/ct/)
 
 ```
-sudo dnf install -y terraform
+sudo dnf install -y ct
 ```
