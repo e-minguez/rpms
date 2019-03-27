@@ -1,5 +1,5 @@
 Name: terraform
-Version: 0.11.11
+Version: 0.11.13
 Release: 1%{?dist}
 Summary: Terraform is a tool for building, changing, and combining infrastructure safely and efficiently.
 Group: Development/Tools
@@ -23,6 +23,9 @@ unzip -o %{SOURCE0} -d %{buildroot}%{_bindir}
 %{_bindir}/*
 
 %changelog
+* Wed Mar 27 2019 David Sastre <d.sastre.medina@gmail.com> - 0.11.13-1
+- Update to 0.11.13
+
 * Mon Jan 08 2019 David Sastre <d.sastre.medina@gmail.com> - 0.11.11-1
 - Update to 0.11.11
 
