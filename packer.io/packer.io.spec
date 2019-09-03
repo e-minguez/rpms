@@ -1,5 +1,5 @@
 Name: packer.io
-Version: 1.4.2
+Version: 1.4.3
 Release: 1%{?dist}
 Summary: Create machine and container images for multiple platforms
 Group: Development/Tools
@@ -29,6 +29,9 @@ popd
 %{_bindir}/*
 
 %changelog
+* Tue Sep 03 2019 David Sastre <d.sastre.medina@gmail.com> - 1.4.3-1
+- Update to 1.4.3
+
 * Wed Jul 10 2019 David Sastre <d.sastre.medina@gmail.com> - 1.4.2-1
 - Update to 1.4.2
 
