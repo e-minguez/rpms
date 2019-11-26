@@ -29,7 +29,7 @@ popd
 %{_bindir}/*
 
 %changelog
-* Thu Nov 26 2019 David Sastre <d.sastre.medina@gmail.com> - 1.4.5-1
+* Tue Nov 26 2019 David Sastre <d.sastre.medina@gmail.com> - 1.4.5-1
 - Update to 1.4.5
 
 * Thu Oct 10 2019 David Sastre <d.sastre.medina@gmail.com> - 1.4.4-1
