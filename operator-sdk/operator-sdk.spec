@@ -1,5 +1,5 @@
 Name: operator-sdk
-Version: 0.8.1
+Version: 0.13.0
 Release: 1%{?dist}
 Summary: SDK for building Kubernetes applications. Provides high level APIs, useful abstractions, and project scaffolding.
 Group: Development/Tools
@@ -23,5 +23,8 @@ install -p -m 0755 %{SOURCE0} %{buildroot}%{_bindir}/operator-sdk
 %{_bindir}/*
 
 %changelog
+* Thu Jan 2 2020 Eduardo Minguez <edu@redhat.com> - 0.13.0-1
+- Bump version to 0.13.0
+
 * Fri Jun 21 2019 Eduardo Minguez <edu@redhat.com> - 0.8.1-1
 - First version
