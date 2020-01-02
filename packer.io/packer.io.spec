@@ -1,5 +1,5 @@
 Name: packer.io
-Version: 1.4.5
+Version: 1.5.1
 Release: 1%{?dist}
 Summary: Create machine and container images for multiple platforms
 Group: Development/Tools
@@ -29,6 +29,9 @@ popd
 %{_bindir}/*
 
 %changelog
+* Thu Jan 02 2020 David Sastre Medina <david.sastre@redhat.com> - 1.5.1-1
+- New release 1.5.1 upstream
+
 * Tue Nov 26 2019 David Sastre <d.sastre.medina@gmail.com> - 1.4.5-1
 - Update to 1.4.5
 
@@ -53,7 +56,7 @@ popd
 * Thu Feb 21 2019 David Sastre <d.sastre.medina@gmail.com> - 1.3.4-1
 - Update to 1.3.4
 
-* Mon Jan 08 2019 David Sastre <d.sastre.medina@gmail.com> - 1.3.3-1
+* Tue Jan 08 2019 David Sastre <d.sastre.medina@gmail.com> - 1.3.3-1
 - Update to 1.3.3
 
 * Tue Nov 06 2018 Sergi Jimenez <tripledes@gmail.com> - 1.3.2-1
