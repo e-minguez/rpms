@@ -5,7 +5,7 @@ Summary: Terraform is a tool for building, changing, and combining infrastructur
 Group: Development/Tools
 License: MPLv2.0
 URL: https://www.terraform.io/
-
+ExclusiveArch:  x86_64
 Source0: https://releases.hashicorp.com/terraform/%{version}/terraform_%{version}_linux_amd64.zip
 
 %description

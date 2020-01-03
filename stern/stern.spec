@@ -5,7 +5,7 @@ Summary: Multi pod and container log tailing for Kubernetes
 Group: Development/Tools
 License: Apache License 2.0
 URL: https://github.com/wercker/stern
-
+ExclusiveArch:  x86_64
 Source0: https://github.com/wercker/stern/releases/download/%{version}/stern_linux_amd64
 
 %description

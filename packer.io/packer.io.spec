@@ -5,7 +5,7 @@ Summary: Create machine and container images for multiple platforms
 Group: Development/Tools
 License: MPLv2.0
 URL: https://www.packer.io/
-
+ExclusiveArch:  x86_64
 Source0: https://releases.hashicorp.com/packer/%{version}/packer_%{version}_linux_amd64.zip
 
 %description

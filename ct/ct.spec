@@ -5,7 +5,7 @@ Summary: The Config Transpiler ("ct" for short) is the utility responsible for t
 Group: Development/Tools
 License: Apache License 2.0
 URL: https://github.com/coreos/container-linux-config-transpiler
-
+ExclusiveArch:  x86_64
 Source0: https://github.com/coreos/container-linux-config-transpiler/releases/download/v%{version}/ct-v%{version}-%{_arch}-unknown-linux-gnu
 
 %description
