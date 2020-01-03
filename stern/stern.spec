@@ -1,5 +1,5 @@
 Name: stern
-Version: 1.10.0
+Version: 1.11.0
 Release: 1%{?dist}
 Summary: Multi pod and container log tailing for Kubernetes
 Group: Development/Tools
@@ -23,5 +23,8 @@ install -p -m 0755 %{SOURCE0} %{buildroot}%{_bindir}/stern
 %{_bindir}/*
 
 %changelog
+* Fri Jan 3 2020 Eduardo Minguez <edu@redhat.com> - 1.11.0-1
+- Bump version
+
 * Fri Jun 21 2019 Eduardo Minguez <edu@redhat.com> - 1.10.0-1
 - First version
