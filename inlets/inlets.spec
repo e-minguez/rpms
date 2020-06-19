@@ -1,7 +1,7 @@
 Name:           inlets
 Release:        1%{?dist}
 Summary:        Expose your local endpoints to the Internet
-Version:        2.6.3
+Version:        2.7.3
 License:        MIT
 URL:            https://github.com/inlets/inlets
 Source0:        https://github.com/inlets/inlets/releases/download/%{version}/inlets
@@ -45,5 +45,8 @@ install -p -m 0644 %{SOURCE2} %{buildroot}/etc/default/inlets
 %systemd_postun inlets.service
 
 %changelog
+* Fri Jun 19 2020 Eduardo Minguez Perez <e.minguez@gmail.com> - 2.7.3-1
+- Bump version to 2.7.3
+
 * Thu Jan 2 2020 Eduardo Minguez Perez <e.minguez@gmail.com> - 2.6.3-1
 - Initial package
